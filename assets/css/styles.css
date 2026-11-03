@@ -1,5 +1,83 @@
 /* styles.css */
-
-* {
-	font-family: Arial;
+html {
+	width: 100%;
+	height: 100%;
 }
+
+body {
+	margin: 1rem;
+	background-color: black;
+	background-image: url(../img/CyberpunkCity-gif.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: whitesmoke;
+	font-size: 5rem;
+	overflow: hidden;
+	font-family: "Play", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: 10% 4rem 0 4rem;
+}
+
+div {
+	transition-property: transform, color, text-shadow;
+	transition-duration: 4s;
+}
+
+.last {
+	padding-bottom: 2rem;
+	border-bottom: 2px solid rgb(220, 200, 180);
+
+}
+
+.play-regular {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.pattaya-regular {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.trade-winds-regular {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+/*
+background cyberpunk art GIF by - Valenberg*/
+
+/* Added styles for basic animation and class "red-glow" to text. 
+.red-glow {
+	transition: all .5s;
+}
+
+.red-glow:hover {
+	color: red;
+	transform: scale(1.5) rotate(45deg);
+	text-shadow: 0 0 15px red;
+}
+
+*/
